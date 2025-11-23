@@ -56,7 +56,7 @@ Working on this project helped me strengthen:
 
 Here’s a small snippet I’m proud of:
 
-```css
+```css```
 body {
   background-color: hsl(47, 88%, 63%);
   display: flex;
