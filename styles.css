@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "myFont";
+    src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    height: 500px;
+    width: 360px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    /* padding-bottom: 20px; */
+    box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
+    /* align-items: center; */
+}
+
+.img {
+    margin-top: 10px;
+    margin-left: 12px;
+    /* margin-right: 5px; */
+    border-radius: 10px;
+}
+
+.tag {
+    height: 20px;
+    width: 60px;
+    background-color: hsl(47, 88%, 63%);
+    margin-left: 12px;
+    font-family: "myFont";
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.details {
+    margin-left: 12px;
+    font-family: "myFont";
+}
+
+.heading {
+    font-family: "myFont";
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.content {
+    font-family: "myFont";
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 12px;
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 0px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+.profile .user-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+    float: left;
+
+}
+
+.profile .author {
+    display: inline;
+    /* margin-left: 10px; */
+    font-family: "myFont";
+    font-weight: 800;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: 490px;
+        width: 330px;
+        justify-content: center;
+        display: block;
+    }
+
+    .img {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 290px;
+
+    }
+
+    .tag {
+        margin-left: 20px;
+    }
+
+    .details {
+        margin-left: 20px;
+    }
+
+    .heading {
+        margin-left: 20px;
+    }
+
+    .content {
+        margin-left: 20px;
+    }
+
+    .profile {
+        margin-left: 20px;
+    }
+}
