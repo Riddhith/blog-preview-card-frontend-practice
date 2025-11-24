@@ -85,6 +85,16 @@ body {
     font-size: 15px;
 }
 
+.heading a:link,
+.heading a:visited {
+    text-decoration: none;
+    color: var(--gray-950);
+}
+
+.heading a:hover {
+    color: yellow;
+}
+
 @media screen and (max-width: 480px) {
     .container {
         height: 490px;
